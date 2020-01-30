@@ -1,0 +1,2 @@
+include ':app', ':kmultiviews'
+rootProject.name='Multi Views'

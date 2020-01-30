@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <declare-styleable name="MutliTextViews">
+        <attr name="count" format="integer" />
+        <attr name="tv_text" format="string"/>
+        <attr name="tv_padding_left" format="dimension"/>
+        <attr name="tv_padding_right" format="dimension"/>
+        <attr name="tv_padding_top" format="dimension"/>
+        <attr name="tv_padding_bottom" format="dimension"/>
+        <attr name="tv_common_weight" format="float"/>
+
+        <!--        <attr name="sriv_border_width" format="dimension" />-->
+        <!--        <attr name="sriv_border_color" format="color" />-->
+        <!--        <attr name="sriv_oval" format="boolean" />-->
+    </declare-styleable>
+</resources>
