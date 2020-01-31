@@ -3,14 +3,20 @@
 
 
 
-    <declare-styleable name="MutliTextViews">
+    <declare-styleable name="MutliViews">
         <attr name="count" format="integer" />
+        <attr name="viewName" format="string"/>
+<!--        <attr name="view_width" format="string"/>-->
+<!--        <attr name="view_height" format="string"/>-->
+
         <attr name="tv_text" format="string"/>
         <attr name="tv_padding_left" format="dimension"/>
         <attr name="tv_padding_right" format="dimension"/>
         <attr name="tv_padding_top" format="dimension"/>
         <attr name="tv_padding_bottom" format="dimension"/>
         <attr name="tv_common_weight" format="float"/>
+
+        <attr name="ed_hint" format="string"/>
 
         <!--        <attr name="sriv_border_width" format="dimension" />-->
         <!--        <attr name="sriv_border_color" format="color" />-->

@@ -3,7 +3,7 @@
 
 
 
-    <declare-styleable name="MutliTextViews">
+    <declare-styleable name="MutliViews">
         <attr name="count" format="integer" />
         <attr name="tv_text" format="string"/>
         <attr name="tv_padding_left" format="dimension"/>

@@ -6,11 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.suvdev.kmultiviews.MutliTextViews
+    <com.suvdev.kmultiviews.MutliViews
         android:id="@+id/group"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:count="3"
+        android:orientation="horizontal"
+        app:count="4"
+        app:viewName="textview"
+        app:ed_hint="Enter data here..."
         app:tv_text="Demo"
         app:tv_padding_top="10dp"
         app:tv_padding_right="10dp"
