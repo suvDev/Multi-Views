@@ -22,8 +22,7 @@ Step 2. Add the dependency
 As stated this library can be used to create many similar static views with equal size. This library support "TextView", "ImageView"
 , "Button" and "Edittext" as of now and more will be added in future releases. Here's a sample:
 
-```
-   <com.suvdev.kmultiviews.MutliViews
+``` <com.suvdev.kmultiviews.MutliViews
         android:id="@+id/group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,8 +35,7 @@ As stated this library can be used to create many similar static views with equa
         app:tv_padding_right="10dp"
         app:tv_padding_left="10dp"
         app:tv_padding_bottom="10dp"
-        app:tv_common_weight="1"/>
-	```
+        app:tv_common_weight="1"/>```
 	
 Here **app:viewName** is used to specify the view which needs to be created out of the 4 mentioned above. <br/>
 To create, **TextView**  use: **app:viewName = "textview"**<br/>
