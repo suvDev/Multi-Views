@@ -57,11 +57,12 @@ So for "TextViews" the text values can be changed at runtime by getting the posi
 ```
  val tv = group.getChildAt(0) as TextView
  tv.setText("Runtime")
+ 
 ```
-<br/>
 and similarly the images can be set at runtime using:
 ```
  val imageView = group.getChildAt(0) as ImageView
  imageView.setImageResource(R.drawable.ic_launcher_background)
+ 
 ```
 Here **group** is the id of the MultiTextViews.
