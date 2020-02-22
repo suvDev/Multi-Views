@@ -36,9 +36,7 @@ As stated this library can be used to create many similar static views with equa
         app:tv_padding_right="10dp"
         app:tv_padding_left="10dp"
         app:tv_padding_bottom="10dp"
-        app:tv_common_weight="1"/>
-	
-	```
+        app:tv_common_weight="1"/>```
 	
 Here **app:viewName** is used to specify the view which needs to be created out of the 4 mentioned above. <br/>
 To create, **TextView**  use: **app:viewName = "textview"**<br/>
